@@ -3,6 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <style type="text/css">
+        body {
+            font-size: 22px;
+        }
+
+        .wrap {
+            width: 700px;
+            margin: 0 auto;
+            background: #ccc;
+            padding: 40px;
+        }
+
+        .row {
+            overflow: hidden;
+        }
+
+        .row .col1 {
+            float: left;
+        }
+
+        .row .col2 {
+            padding-left: 50px;
+            float: left;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,8 +40,8 @@
                 <div class="col1">
                     Input text
                 </div>
-                <div class="col1">
-                    <input type="text" name="username" value="">
+                <div class="col2">
+                    <input type="text" name="username" placeholder="Nhap ten" value="">
                 </div>
             </div>
         </form>
