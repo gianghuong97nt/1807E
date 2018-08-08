@@ -30,12 +30,17 @@
             display: inline-block;
             border-right: 1px solid #FFF;
         }
+        .container .menu > ul > li {
+            position: relative;
+        }
+
         .container .menu > ul > li:hover ul.sub-menu {
             display: block;
         }
         ul.sub-menu {
             display: none;
-            width: 100%;
+            width: 300px;
+            position: absolute;
         }
         ul.sub-menu li {
             float: none !important;
