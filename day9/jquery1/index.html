@@ -30,6 +30,8 @@
 
         <div id="click-event">Im div id</div>
 
+        <div class="div-class">Im div class</div>
+
 
     </div>
 
@@ -41,6 +43,10 @@
 
             $('#click-event').click(function () {
                 alert($(this).attr('id'));
+            });
+
+            $('.div-class').click(function () {
+                alert($(this).attr('class'));
             });
         });
     </script>
