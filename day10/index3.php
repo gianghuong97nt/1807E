@@ -40,3 +40,10 @@ echo '<pre>';
 print_r($array);
 echo '</pre>';
 
+/**
+ * kiểu dữ liệu null
+ */
+$null = null;
+echo '<br>';
+var_dump(null);
+
