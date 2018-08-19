@@ -47,3 +47,12 @@ $null = null;
 echo '<br>';
 var_dump(null);
 
+/**
+ * khai báo 1 hằng số
+ */
+define('APP_NAME', 'Ứng dụng PHP');
+echo '<br>' . APP_NAME;
+
+
+
+
